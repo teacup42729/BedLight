@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="_core">
+      <UniqueIdentifier>{a343c5c5-243b-480f-80bb-7079352dcc03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries">
+      <UniqueIdentifier>{0c1e5616-b606-4fb4-a417-8e60cfd30558}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\Button">
+      <UniqueIdentifier>{cc67ea97-963c-42ec-be4e-9122de597a54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\PWM">
+      <UniqueIdentifier>{201b4450-1aea-4a0c-9eda-e80854548392}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\PWMDriver">
+      <UniqueIdentifier>{9e54adce-f225-4534-9e1b-20d358af3471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\RGB">
+      <UniqueIdentifier>{d2dcca35-eb23-448f-86fc-c59345895c0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\RGBPWM">
+      <UniqueIdentifier>{785a30df-c1ef-4e44-978b-03cdafba21a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\RTC">
+      <UniqueIdentifier>{ce56a394-013c-4081-93d8-eb07c1efe24e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\Wire">
+      <UniqueIdentifier>{ddc0e0ea-2533-4856-9c85-cf8a20767d05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\Wire\utility">
+      <UniqueIdentifier>{00bf10ab-fd6c-4bd9-a40a-ef25275e0ff3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\Arduino-IRremote">
+      <UniqueIdentifier>{bbbd12b7-dead-4d19-b980-ae50f8067b82}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BedLight.ino" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\wiring_pulse.S">
+      <Filter>_core</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Visual Micro\.BedLight.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PostLight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\Arduino.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\binary.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\Client.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\HardwareSerial.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\HardwareSerial_private.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\IPAddress.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\new.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\Print.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\Printable.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\Server.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\Stream.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\Udp.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\USBAPI.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\USBCore.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\USBDesc.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\WCharacter.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\wiring_private.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\WString.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\variants\standard\pins_arduino.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\Button\Button.h">
+      <Filter>_libraries\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\PWM\PWM.h">
+      <Filter>_libraries\PWM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\PWMDriver\PWMDriver.h">
+      <Filter>_libraries\PWMDriver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\RGB\RGB.h">
+      <Filter>_libraries\RGB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\RGBPWM\RGBPWM.h">
+      <Filter>_libraries\RGBPWM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\RTC\RTC.h">
+      <Filter>_libraries\RTC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\Wire\Wire.h">
+      <Filter>_libraries\Wire</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\Wire\utility\twi.h">
+      <Filter>_libraries\Wire\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\Arduino-IRremote\IRremote.h">
+      <Filter>_libraries\Arduino-IRremote</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\Arduino-IRremote\IRremoteInt.h">
+      <Filter>_libraries\Arduino-IRremote</Filter>
+    </ClInclude>
+    <ClInclude Include="FloorLight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PostLight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\abi.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\CDC.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\HardwareSerial.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\HardwareSerial0.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\HardwareSerial1.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\HardwareSerial2.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\HardwareSerial3.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\HID.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\hooks.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\IPAddress.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\main.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\new.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\Print.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\Stream.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\Tone.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\USBCore.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\WInterrupts.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\wiring.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\wiring_analog.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\wiring_digital.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\wiring_pulse.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\wiring_shift.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\WMath.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\WString.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\Button\Button.cpp">
+      <Filter>_libraries\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\PWM\PWM.cpp">
+      <Filter>_libraries\PWM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\PWMDriver\PWMDriver.cpp">
+      <Filter>_libraries\PWMDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\RGB\RGB.cpp">
+      <Filter>_libraries\RGB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\RGBPWM\RGBPWM.cpp">
+      <Filter>_libraries\RGBPWM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\RTC\RTC.cpp">
+      <Filter>_libraries\RTC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\Wire\Wire.cpp">
+      <Filter>_libraries\Wire</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\Wire\utility\twi.c">
+      <Filter>_libraries\Wire\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\Arduino-IRremote\irISR.cpp">
+      <Filter>_libraries\Arduino-IRremote</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\Arduino-IRremote\irPronto.cpp">
+      <Filter>_libraries\Arduino-IRremote</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\Arduino-IRremote\irRecv.cpp">
+      <Filter>_libraries\Arduino-IRremote</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\Arduino-IRremote\IRremote.cpp">
+      <Filter>_libraries\Arduino-IRremote</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\Arduino-IRremote\irSend.cpp">
+      <Filter>_libraries\Arduino-IRremote</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\Arduino-IRremote\ir_Aiwa.cpp">
+      <Filter>_libraries\Arduino-IRremote</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\Arduino-IRremote\ir_Denon.cpp">
+      <Filter>_libraries\Arduino-IRremote</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\Arduino-IRremote\ir_Dish.cpp">
+      <Filter>_libraries\Arduino-IRremote</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\Arduino-IRremote\ir_JVC.cpp">
+      <Filter>_libraries\Arduino-IRremote</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\Arduino-IRremote\ir_LG.cpp">
+      <Filter>_libraries\Arduino-IRremote</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\Arduino-IRremote\ir_Mitsubishi.cpp">
+      <Filter>_libraries\Arduino-IRremote</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\Arduino-IRremote\ir_NEC.cpp">
+      <Filter>_libraries\Arduino-IRremote</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\Arduino-IRremote\ir_Panasonic.cpp">
+      <Filter>_libraries\Arduino-IRremote</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\Arduino-IRremote\ir_RC5_RC6.cpp">
+      <Filter>_libraries\Arduino-IRremote</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\Arduino-IRremote\ir_Samsung.cpp">
+      <Filter>_libraries\Arduino-IRremote</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\Arduino-IRremote\ir_Sanyo.cpp">
+      <Filter>_libraries\Arduino-IRremote</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\Arduino-IRremote\ir_Sharp.cpp">
+      <Filter>_libraries\Arduino-IRremote</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\Arduino-IRremote\ir_Sony.cpp">
+      <Filter>_libraries\Arduino-IRremote</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\Arduino-IRremote\ir_Template.cpp">
+      <Filter>_libraries\Arduino-IRremote</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\Arduino-IRremote\ir_Whynter.cpp">
+      <Filter>_libraries\Arduino-IRremote</Filter>
+    </ClCompile>
+    <ClCompile Include="FloorLight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
